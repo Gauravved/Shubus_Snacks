@@ -22,6 +22,22 @@
 .head{
 	color: white;
 }
+.tresetting img{
+	padding-top: 50px;
+	width: 100%;
+	height: 450px;
+}
+.tresetting{
+	padding: 100px 0px 50px;
+	height: 700px;
+}
+.tresetting h1{
+	color: rgb(198, 51, 51);
+	font-weight: bold;
+}
+
+
+
 @media(min-width: 992px) {
 
 }
@@ -42,6 +58,9 @@
 	.head{
 		font-size: 26px;
 	}
+	.tresetting{
+		height: 1650px;
+	}
 }
 @media (max-width: 479px){
 	.imgsetting{
@@ -49,5 +68,8 @@
 	}
 	.head{
 		font-size: 26px;
+	}
+	.tresetting{
+		height: 1650px;
 	}
 }
