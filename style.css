@@ -1,0 +1,53 @@
+.navsetting{
+	background-color: rgb(198, 51, 51);
+	color: white;
+}
+#asetting{
+	font-family: Baskerville Old Face;
+	font-style: italic;
+	font-size: 28px;
+}
+.bgsetting{
+	background-color: floralwhite;
+}
+.lisetting{
+	margin-right: 15px;
+}
+.slidesetting{
+	padding: 100px 0px;
+}
+.imgsetting{
+	height: 570px;
+}
+.head{
+	color: white;
+}
+@media(min-width: 992px) {
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.imgsetting{
+		height: 450px;
+	}
+}
+@media(min-width: 575px) and (max-width: 767px){
+	.imgsetting{
+		height: 450px;
+	}
+}
+@media(min-width: 480px) and (max-width: 574px){
+	.imgsetting{
+		height: 350px;
+	}
+	.head{
+		font-size: 26px;
+	}
+}
+@media (max-width: 479px){
+	.imgsetting{
+		height: 350px;
+	}
+	.head{
+		font-size: 26px;
+	}
+}
