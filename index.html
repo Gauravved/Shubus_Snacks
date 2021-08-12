@@ -81,21 +81,52 @@
 		</div>
 	</section>
 	<section class="tresetting text-center bg-light">	
-		<div class="container-fluid">
+		<div class="container-fluid reveal">
 			<h1 style="font-family: Baskerville Old Face;font-style: italic;">Trending</h1>
 			<div class="row">
-				<div class=" col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
-					<img src="img/trending/tre1.jpg" class="d-block m-auto">
+				<div class=" col-lg-4 col-md-8 col-sm-10 col-10 d-block m-auto">
+					<div class="card bg-light" style="border: none;">
+						<img src="img/trending/tre1.jpg" class="card-img">
+						<div class="card-body">
+							<h2 class="card-title">Fast Special</h2>
+						</div>
+					</div>
 				</div>
-				<div class=" col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
-					<img src="img/trending/tre2.jpg">
+				<div class=" col-lg-4 col-md-8 col-sm-10 col-10 d-block m-auto">
+					<div class="card bg-light" style="border: none;">
+						<img src="img/trending/tre2.jpg" class="card-img">
+						<div class="card-body">
+							<h2 class="card-title">Ganpati Special</h2>
+						</div>
+					</div>
 				</div>
-				<div class=" col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
-					<img src="img/trending/tre4.jpg">
+				<div class=" col-lg-4 col-md-8 col-sm-10 col-10 d-block m-auto">
+					<div class="card bg-light" style="border: none;">
+						<img src="img/trending/tre3.jpg" class="card-img">
+						<div class="card-body">
+							<h2 class="card-title">South Indian</h2>
+						</div>
+					</div>
 				</div>
 			</div>	
 		</div>
 	</section>
-</div>
+	<script type="text/javascript">
+		window.addEventListener('scroll', reveal);
+		function reveal(){
+			var reveals = document.querySelectorAll('.reveal');
+			for (var i = 0; i < reveals.length; i++) {
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 150;
+				if (revealtop < windowheight - revealpoint) {
+					reveals[i].classList.add('active');
+				}
+				else{
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+	</script>
 </body>
 </html>

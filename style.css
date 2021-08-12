@@ -1,6 +1,9 @@
 .navsetting{
 	background-color: rgb(198, 51, 51);
 	color: white;
+	opacity: 90%;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
 }
 #asetting{
 	font-family: Baskerville Old Face;
@@ -30,12 +33,24 @@
 .tresetting{
 	padding: 70px 0px 50px;
 	height: 700px;
+	font-family: Baskerville Old Face;
+	font-style: italic;
+	color: rgb(198, 51, 51);
 }
 .tresetting h1{
 	color: rgb(198, 51, 51);
 	font-weight: bold;
 }
-
+.reveal{
+	position: relative;
+	transform: translateY(200px);
+	opacity: 0;
+	transition: all 1.5s ease;
+}
+.reveal.active{
+	transform: translateY(0px);
+	opacity: 1;
+}
 
 
 @media(min-width: 992px) {
@@ -45,10 +60,16 @@
 	.imgsetting{
 		height: 450px;
 	}
+	.tresetting{
+		height: 1800px;
+	}
 }
 @media(min-width: 575px) and (max-width: 767px){
 	.imgsetting{
 		height: 450px;
+	}
+	.tresetting{
+		height: 1800px;
 	}
 }
 @media(min-width: 480px) and (max-width: 574px){
@@ -59,7 +80,7 @@
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1650px;
+		height: 1800px;
 	}
 }
 @media (max-width: 479px){
@@ -70,6 +91,6 @@
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1650px;
+		height: 1800px;
 	}
 }
