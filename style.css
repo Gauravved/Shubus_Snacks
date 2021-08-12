@@ -80,7 +80,10 @@
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1800px;
+		height: 1350px;
+	}
+	.card-img{
+		max-height: 300px;
 	}
 }
 @media (max-width: 479px){
@@ -91,6 +94,9 @@
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1800px;
+		height: 1350px;
+	}
+	.card-img{
+		max-height: 300px;
 	}
 }
