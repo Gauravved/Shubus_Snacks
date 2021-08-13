@@ -83,6 +83,19 @@ margin-top: 40px;
 
 }
 
+.resetting{
+	color: rgb(198, 51, 51);
+	padding: 0px 0px 50px;
+}
+.card{
+	padding: 30px 0px 30px;
+	margin-top: 15px;
+}
+
+.rating{
+	margin-top: 50px;
+}
+
 @media(min-width: 992px) {
 
 	.footersetting{
@@ -103,7 +116,7 @@ margin-top: 40px;
 		height: 450px;
 	}
 	.tresetting{
-		height: 2170px;
+		height: 2350px;
 	}
 	.footersetting{
 		height: 400px;
@@ -124,7 +137,7 @@ margin-top: 40px;
 		height: 450px;
 	}
 	.tresetting{
-		height: 2190px;
+		height: 2350px;
 	}
 	.footersetting{
 		height: 500px;
@@ -149,7 +162,7 @@ margin-top: 40px;
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1800px;
+		height: 1900px;
 	}
 	.card-img{
 		max-height: 300px;
@@ -176,7 +189,7 @@ margin-top: 40px;
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1850px;
+		height: 2100px;
 	}
 	.card-img{
 		max-height: 300px;
@@ -197,7 +210,10 @@ margin-top: 40px;
 }
 @media (max-height: 640px) and (max-width: 479px){
 	.tresetting{
-		height: 1900px;
+		height: 2150px;
+	}
+	#asetting{
+		font-size: 18px;
 	}
 	.footersetting{
 		height: 580px;
