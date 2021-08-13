@@ -1,7 +1,6 @@
 .navsetting{
 	background-color: rgb(198, 51, 51);
 	color: white;
-	opacity: 90%;
 	border-bottom-right-radius: 40px;
 	border-bottom-left-radius: 40px;
 }
@@ -85,7 +84,7 @@ margin-top: 40px;
 
 .resetting{
 	color: rgb(198, 51, 51);
-	padding: 0px 0px 50px;
+	padding: 60px 0px 50px;
 }
 .card{
 	padding: 30px 0px 30px;
@@ -97,7 +96,9 @@ margin-top: 40px;
 }
 
 @media(min-width: 992px) {
-
+	.tresetting{
+		height: 900px;
+	}
 	.footersetting{
 		height: 420px;
 	}
@@ -116,7 +117,7 @@ margin-top: 40px;
 		height: 450px;
 	}
 	.tresetting{
-		height: 2350px;
+		height: 2150px;
 	}
 	.footersetting{
 		height: 400px;
@@ -131,13 +132,28 @@ margin-top: 40px;
 	.footersetting ul li{
 		font-size: 16px;
 	}
+	.tresetting h1{
+		font-weight: bold;
+	}
+	.tresetting p{
+		font-size: 17px;
+	}
+	.tresetting .card{
+		height: 650px;
+	}
 }
 @media(min-width: 575px) and (max-width: 767px){
 	.imgsetting{
 		height: 450px;
 	}
 	.tresetting{
-		height: 2350px;
+		height: 2150px;
+	}
+	.tresetting p{
+		font-size: 16px;
+	}
+	.tresetting .card{
+		height: 650px;
 	}
 	.footersetting{
 		height: 500px;
@@ -162,7 +178,10 @@ margin-top: 40px;
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1900px;
+		height: 1920px;
+	}
+	.tresetting p{
+		font-size: 17px;
 	}
 	.card-img{
 		max-height: 300px;
