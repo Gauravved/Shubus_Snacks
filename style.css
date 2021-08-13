@@ -180,7 +180,7 @@ margin-top: 40px;
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1800px;
+		height: 1850px;
 	}
 	.card-img{
 		max-height: 300px;
@@ -197,5 +197,13 @@ margin-top: 40px;
 	}
 	.footersetting ul li{
 		font-size: 16px;
+	}
+}
+@media (max-height: 640px){
+	.tresetting{
+		height: 1900px;
+	}
+	.footersetting{
+		height: 580px;
 	}
 }
