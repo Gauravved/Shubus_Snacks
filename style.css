@@ -31,7 +31,6 @@
 }
 .tresetting{
 	padding: 70px 0px 50px;
-	height: 850px;	
 	font-weight: bold;
 	color: rgb(198, 51, 51);
 }
@@ -86,9 +85,6 @@ margin-top: 40px;
 
 @media(min-width: 992px) {
 
-	.tresetting{
-		height: 900px;
-	}
 	.footersetting{
 		height: 420px;
 	}
@@ -199,7 +195,7 @@ margin-top: 40px;
 		font-size: 16px;
 	}
 }
-@media (max-height: 640px){
+@media (max-height: 640px) and (max-width: 479px){
 	.tresetting{
 		height: 1900px;
 	}
