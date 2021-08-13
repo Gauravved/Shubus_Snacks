@@ -35,11 +35,15 @@
 	height: 700px;
 	font-family: Baskerville Old Face;
 	font-style: italic;
+	font-weight: bold;
 	color: rgb(198, 51, 51);
 }
 .tresetting h1{
 	color: rgb(198, 51, 51);
 	font-weight: bold;
+}
+.tresetting p{
+	font-size: 18px;
 }
 .reveal{
 	position: relative;
