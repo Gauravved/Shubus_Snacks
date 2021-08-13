@@ -6,7 +6,6 @@
 	border-bottom-left-radius: 40px;
 }
 #asetting{
-	font-family: Baskerville Old Face;
 	font-style: italic;
 	font-size: 28px;
 }
@@ -32,9 +31,7 @@
 }
 .tresetting{
 	padding: 70px 0px 50px;
-	height: 850px;
-	font-family: Baskerville Old Face;
-	
+	height: 850px;	
 	font-weight: bold;
 	color: rgb(198, 51, 51);
 }
@@ -60,8 +57,7 @@
 }
 
 .footersetting{
-	background-color: rgb(198, 51, 51));
-	height: 380px;
+	background-color: rgb(198, 51, 51);
 	border-top-right-radius:40px;
 	border-top-left-radius:40px;
 	padding: 50px 80px 50px;
@@ -70,20 +66,18 @@
 .footersetting p{
 	font-size: 22px;
 	color: white;
-	font-family: Baskerville Old Face;
+	font-family: Arial;
 	
 
 }
 .footersetting h1{
 	color:white;
 	font-style: italic;
-	font-family: Baskerville Old Face;
 }
 
 .footersetting ul li{
 	font-size: 22px;
 	color: white;
-	font-family: Baskerville Old Face;
 }
 .image{
 margin-top: 40px;
@@ -92,13 +86,41 @@ margin-top: 40px;
 
 @media(min-width: 992px) {
 
+	.tresetting{
+		height: 900px;
+	}
+	.footersetting{
+		height: 420px;
+	}
+	.footersetting h1{
+		font-size: 30px;
+	}
+	.footersetting p{
+		font-size: 20px;
+	}
+	.footersetting ul li{
+		font-size: 18px;
+	}
 }
 @media(min-width: 768px) and (max-width: 991px){
 	.imgsetting{
 		height: 450px;
 	}
 	.tresetting{
-		height: 1800px;
+		height: 2170px;
+	}
+	.footersetting{
+		height: 400px;
+		padding: 60px 40px 0px;
+	}
+	.footersetting h1{
+		font-size: 20px;
+	}
+	.footersetting p{
+		font-size: 16px;
+	}
+	.footersetting ul li{
+		font-size: 16px;
 	}
 }
 @media(min-width: 575px) and (max-width: 767px){
@@ -106,8 +128,22 @@ margin-top: 40px;
 		height: 450px;
 	}
 	.tresetting{
-		height: 1800px;
+		height: 2190px;
 	}
+	.footersetting{
+		height: 500px;
+		padding: 60px 40px 0px;
+	}
+	.footersetting h1{
+		font-size: 20px;
+	}
+	.footersetting p{
+		font-size: 16px;
+	}
+	.footersetting ul li{
+		font-size: 16px;
+	}
+
 }
 @media(min-width: 480px) and (max-width: 574px){
 	.imgsetting{
@@ -117,10 +153,23 @@ margin-top: 40px;
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1350px;
+		height: 1800px;
 	}
 	.card-img{
 		max-height: 300px;
+	}
+	.footersetting{
+		height: 550px;
+		padding: 60px 20px 0px;
+	}
+	.footersetting h1{
+		font-size: 20px;
+	}
+	.footersetting p{
+		font-size: 16px;
+	}
+	.footersetting ul li{
+		font-size: 16px;
 	}
 }
 @media (max-width: 479px){
@@ -131,9 +180,22 @@ margin-top: 40px;
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1350px;
+		height: 1800px;
 	}
 	.card-img{
 		max-height: 300px;
+	}
+	.footersetting{
+		height: 550px;
+		padding: 60px 20px 0px;
+	}
+	.footersetting h1{
+		font-size: 20px;
+	}
+	.footersetting p{
+		font-size: 16px;
+	}
+	.footersetting ul li{
+		font-size: 16px;
 	}
 }
