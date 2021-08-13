@@ -178,7 +178,7 @@ margin-top: 40px;
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 1920px;
+		height: 1700px;
 	}
 	.tresetting p{
 		font-size: 17px;
@@ -199,6 +199,9 @@ margin-top: 40px;
 	.footersetting ul li{
 		font-size: 16px;
 	}
+	.tresetting .card{
+		height: 490px;
+	}
 }
 @media (max-width: 479px){
 	.imgsetting{
@@ -208,7 +211,7 @@ margin-top: 40px;
 		font-size: 26px;
 	}
 	.tresetting{
-		height: 2100px;
+		height: 1750px;
 	}
 	.card-img{
 		max-height: 300px;
@@ -226,15 +229,27 @@ margin-top: 40px;
 	.footersetting ul li{
 		font-size: 16px;
 	}
+	.tresetting .card{
+		height: 490px;
+	}
 }
 @media (max-height: 640px) and (max-width: 479px){
 	.tresetting{
-		height: 2150px;
+		height: 1750px;
 	}
 	#asetting{
 		font-size: 18px;
 	}
 	.footersetting{
 		height: 580px;
+	}
+	.tresetting .card{
+		height: 515px;
+	}
+	.tresetting p{
+		font-size: 17px;
+	}
+	.tresetting .card-title{
+		font-size: 24px;
 	}
 }
