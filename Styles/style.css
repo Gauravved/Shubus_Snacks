@@ -212,7 +212,7 @@ margin-top: 40px;
 		font-size: 16px;
 	}
 	.tresetting .card{
-		height: 490px;
+		height: 510px;
 	}
 }
 @media (max-width: 479px){
@@ -242,12 +242,12 @@ margin-top: 40px;
 		font-size: 16px;
 	}
 	.tresetting .card{
-		height: 540px;
+		height: 555px;
 	}
 }
 @media (max-height: 640px) and (max-width: 479px){
 	.tresetting{
-		height: 1750px;
+		height: 1800px;
 	}
 	#asetting{
 		font-size: 18px;
@@ -256,7 +256,7 @@ margin-top: 40px;
 		height: 580px;
 	}
 	.tresetting .card{
-		height: 515px;
+		height: 536px;
 	}
 	.tresetting p{
 		font-size: 17px;
