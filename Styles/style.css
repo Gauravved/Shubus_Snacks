@@ -1,12 +1,15 @@
 .navsetting{
 	background-color: rgb(198, 51, 51);
-	color: white;
 	border-bottom-right-radius: 40px;
 	border-bottom-left-radius: 40px;
 }
 #asetting{
 	font-style: italic;
 	font-size: 28px;
+}
+.fixed-top.scrolled{
+	background-color: rgb(198, 51, 51);
+	transition: background-color 200ms linear;
 }
 .bgsetting{
 	background-color: floralwhite;
@@ -15,7 +18,7 @@
 	margin-right: 15px;
 }
 .slidesetting{
-	padding: 100px 0px 50px;
+	padding: 70px 0px 50px;
 }
 .imgsetting{
 	height: 570px;
@@ -24,12 +27,11 @@
 	color: white;
 }
 .tresetting img{
-	padding-top: 50px;
 	width: 100%;
 	height: 450px;
 }
 .tresetting{
-	padding: 70px 0px 50px;
+	padding: 50px 0px 50px;
 	font-weight: bold;
 	color: rgb(198, 51, 51);
 }
@@ -56,8 +58,6 @@
 
 .footersetting{
 	background-color: rgb(198, 51, 51);
-	border-top-right-radius:40px;
-	border-top-left-radius:40px;
 	padding: 50px 80px 50px;
 	
 }
@@ -91,11 +91,16 @@ margin-top: 40px;
 	margin-top: 15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.cards{
+	padding: none;
+}
 .rating{
 	margin-top: 50px;
 }
-
 @media(min-width: 992px) {
 	.tresetting{
 		height: 900px;
@@ -111,6 +116,9 @@ margin-top: 40px;
 	}
 	.footersetting ul li{
 		font-size: 18px;
+	}
+	.cards{
+		height: 300px;
 	}
 }
 @media(min-width: 768px) and (max-width: 991px){
@@ -141,6 +149,9 @@ margin-top: 40px;
 	}
 	.tresetting .card{
 		height: 650px;
+	}
+	.cards{
+		height: 500px;
 	}
 }
 @media(min-width: 575px) and (max-width: 767px){
