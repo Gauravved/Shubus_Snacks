@@ -13,11 +13,27 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script>
+		$(function () {
+			$('#header').load('header.html')
+		});
+	</script>
+
+	<script>
+		$(function () {
+			$('#footer').load('footer.html')
+		});
+	</script>
+
 </head>
 
 <body>
-	<div class="bgsetting">
+	<div id="header"></div>
+	<!--<div class="bgsetting">
 		<nav class="navbar navbar-expand-md fixed-top navsetting">
 			<div class="container">
 				<a href="#" class="navbar-brand text-center text-white" id="asetting">Shubu's Snacks <i
@@ -46,9 +62,13 @@
 						</li>
 					</ul>
 				</div>
+<<<<<<< HEAD
 			</div>
 		</nav>
 	</div>
+=======
+			</nav>
+		</div> -->
 	<section class="slidesetting">
 		<div>
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -78,6 +98,8 @@
 					</div>
 				</div> 
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				</div><a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+					data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
 				</a>
@@ -189,7 +211,7 @@
 					<div class="card">
 						<h3>Review 7</h3>
 						<p>
-							"Food was very awesome<br>and was delivered<br>on time" 
+							"Food was very awesome<br>and was delivered<br>on time"
 						</p>
 					</div>
 				</div>
@@ -197,7 +219,8 @@
 					<div class="card">
 						<h3>Review 8</h3>
 						<p>
-							"The food was packed very<br>neatly and attractively which<br>tells us about the professionalism"
+							"The food was packed very<br>neatly and attractively which<br>tells us about the
+							professionalism"
 						</p>
 					</div>
 				</div>
@@ -213,7 +236,8 @@
 		</div>
 	</section>
 
-	<footer class="footersetting">
+	<div id="footer"></div>
+	<!--	<footer class="footersetting">
 		<div class="container-fluid text-left">
 			<div class="row">
 				<div class="col-lg-5 col-md-6 col-sm-6 col-12 d-block m-auto">
@@ -240,7 +264,7 @@
 			</center>   
 			<p class="text-center" style="margin-top:30px;">Copyright © Shubu's Snacks 2021</p>
 		</div>
-	</footer>
+	</footer> -->
 
 	<script type="text/javascript">
 		window.addEventListener('scroll', reveal);
