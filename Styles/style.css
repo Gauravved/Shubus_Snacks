@@ -101,6 +101,37 @@ margin-top: 40px;
 .rating{
 	margin-top: 50px;
 }
+.contactset{
+	padding: 100px 0px 60px;
+	margin-top: 50px;
+}
+.pset1{
+	color: rgb(198, 51, 51);
+	font-size: 16px;
+	display: inline-block;
+}
+.pset{
+	color: rgb(198, 51, 51);
+	font-size: 17px;
+	padding: 0px 0px 50px;
+}
+.contactset h1{
+	color: rgb(198, 51, 51);
+	padding: 0px 0px 10px;
+}
+.form-group button{
+	background-color: rgb(198, 51, 51);
+	color: white;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+}
+.form-group button:hover{
+	background-color: white;
+	color: rgb(198, 51, 51);
+	border: 2px solid;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+}
 @media(min-width: 992px) {
 	.tresetting{
 		height: 900px;
