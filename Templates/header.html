@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="../Assets/img/logo.png">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="../Assets/img/logo.png">
 	<link rel="stylesheet" type="text/css" href="../Styles/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<script>
+		$(document).on('click',function(){
+		$('#collapsenavbar').collapse('hide');})
+	</script>
 </head>
+
 <body>
-    <div class="bgsetting">
+	<div class="bgsetting">
 		<nav class="navbar navbar-expand-md fixed-top navsetting">
 			<div class="container">
-				<a href="#" class="navbar-brand text-center text-white" id="asetting">Shubu's Snacks <i
-					class="fa fa-glass"></i></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
-						<span class="navbar-toggler-icon"><i class="fa fa-navicon" style="color:#fff; font-size:24px;"></i>
-						</span>
-					</button>
-					<div class="collapse navbar-collapse text-center" id="collapsenavbar">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item lisetting">
-								<a href="#" class="nav-link text-white">About</a>
-							</li>
-							<li class="nav-item lisetting">
-								<a href="#" class="nav-link text-white">Events</a>
-							</li>
-							<li class="nav-item lisetting">
-								<a href="#reviews" class="nav-link text-white">Reviews</a>
-							</li>
-							<li class="nav-item lisetting">
-								<a href="#" class="nav-link text-white">Membership</a>
-							</li>
-							<li class="nav-item lisetting">
-								<a href="#" class="nav-link text-white">Contact</a>
-							</li>
-						</ul>
-					</div>
+				<a href="index.html" class="navbar-brand text-center text-white" id="asetting">Shubu's Snacks <i
+						class="fa fa-glass"></i></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+					<span class="navbar-toggler-icon"><i class="fa fa-navicon" style="color:#fff; font-size:24px;"></i>
+					</span>
+				</button>
+				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item lisetting">
+							<a href="aboutus.html" class="nav-link text-white js-scroll-trigger">About</a>
+						</li>
+						<li class="nav-item lisetting">
+							<a href="#" class="nav-link text-white js-scroll-trigger">Events</a>
+						</li>
+						<li class="nav-item lisetting">
+							<a href="index.html#reviews" class="nav-link text-white js-scroll-trigger">Reviews</a>
+						</li>
+						<li class="nav-item lisetting">
+							<a href="#" class="nav-link text-white js-scroll-trigger">Membership</a>
+						</li>
+						<li class="nav-item lisetting">
+							<a href="contact.html" class="nav-link text-white js-scroll-trigger">Contact</a>
+						</li>
+					</ul>
 				</div>
-			</nav>
-		</div>
-	
-    
+			</div>
+		</nav>
+	</div>
+	<script type="text/javascript">
+		$('.js-scroll-trigger').on('click',function(){
+		$('.navbar-toggler').collapse('hide');})
+	</script>
 </body>
 </html>

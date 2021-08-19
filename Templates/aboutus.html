@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Shubu's Snacks</title>
+    <link rel="icon" type="image/png" href="../Assets/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html')
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#footer').load('footer.html')
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+    <section class="services">
+        <div class="container">
+            <h1 class="text-center">About Us</h1>
+            <h6 class="text-center">Into our delicious world</h6>
+            <div class="aboutde">
+                <p>
+                <h5 class="hset">Welcome to Shubu's Snacks!</h5>
+                </p>
+                <p class="pset">
+                    Shubu's Snacks is a platform where we proudly offer our native, homemade products. These products
+                    are made from the traditional recipies <br>
+                    that are passed on from generations! All our products are always made in refined oil and pure ghee.
+                    In Shubu's Snacks, utmost importance is <br>
+                    given to cleanliness and hygine (you don't need to worry about the taste :) ). Along with the
+                    lingering taste and purely homemade food, we <br>
+                    are also known for our punctual delivery and style of packing. Our speciality is the diwali
+                    customisable combo and Diwali products. We deliver <br>
+                    on time food for various events. It is a new venture with fresh ideas and unique services and we
+                    take pride in promoting women <br>
+                    empowerment. In this adventure, our goals are to provide delicious and top quality food products
+                    with excellect service and give you the best <br>
+                    experience possible. Be assured of a food experience and service that will stay with you for the
+                    lifetime.
+                </p>
+                <p class="pset">Happy Eating :)</p>
+            </div>
+            <div class="container">
+                <form>
+                    <div class="row reveal">
+                        <div class="col-lg-10  col-md-10 col-sm-10 col-10 d-block m-auto">
+                            <h5 class="text-center hset">Suggestion box</h5>
+                            <p>Please Let us Know your Suggestion here </p>
+                        </div>
+                        <div class="col-lg-10  col-md-10 col-sm-10 col-10 d-block m-auto">
+                            <div class="form-group">
+                                <textarea name="suggest" id="suggest" rows="6" class="form-control"
+                                    placeholder="Write Something"></textarea>
+
+                                <div class="form-group text-center">
+                                    <button type="submit" class="buttonsetting">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+
+    </section>
+    <script type="text/javascript">
+        $('.js-scroll-trigger').on('click', function () {
+            $('.collapse').collapse('hide');
+        })
+    </script>
+    <script type="text/javascript">
+		window.addEventListener('scroll', reveal);
+		function reveal() {
+			var reveals = document.querySelectorAll('.reveal');
+			for (var i = 0; i < reveals.length; i++) {
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 20;
+				if (revealtop < windowheight - revealpoint) {
+					reveals[i].classList.add('active');
+				}
+				else {
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+	</script>
+</body>
+
+</html>

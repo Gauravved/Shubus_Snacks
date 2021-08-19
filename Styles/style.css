@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
 .navsetting{
 	background-color: rgb(198, 51, 51);
 	border-bottom-right-radius: 40px;
@@ -101,6 +106,7 @@ margin-top: 40px;
 .rating{
 	margin-top: 50px;
 }
+<<<<<<< HEAD
 
 
 
@@ -111,6 +117,75 @@ margin-top: 40px;
 
 
 
+=======
+.contactset{
+	padding: 100px 0px 60px;
+	margin-top: 50px;
+}
+.pset1{
+	color: rgb(198, 51, 51);
+	font-size: 16px;
+	display: inline-block;
+}
+.pset{
+	color: rgb(198, 51, 51);
+	font-size: 17px;
+	padding: 0px 0px 50px;
+}
+.contactset h1{
+	color: rgb(198, 51, 51);
+	padding: 0px 0px 10px;
+}
+.services{
+	padding: 100px 0px 60px;
+	margin-top: 50px;
+}
+.services h1,h6{
+	color: rgb(198, 51, 51);
+	padding: 0px 0px 10px;
+}   
+  #sug{
+	  margin-left: 200px;
+	  margin-top: 80px;
+  }
+.form-group button{
+	background-color: rgb(198, 51, 51);
+	color: white;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+	font-size: 18px;
+	padding: 6px;
+	border-radius: 5px;
+}
+.form-group button:hover{
+	background-color: white;
+	color: rgb(198, 51, 51);
+	border: 2px solid;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+}
+.services button{
+	background-color: rgb(198, 51, 51);
+	color: white;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+	margin-top: 40px;
+	font-size: 18px;
+	padding: 6px;
+	border-radius: 5px;
+}
+.hset{
+	margin-top: 30px;
+	color: rgb(198, 51, 51);
+}
+.services button:hover{
+	background-color: white;
+	color: rgb(198, 51, 51);
+	border: 2px solid;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+}
+>>>>>>> 01aaffe02d2920069401e01228b21ca1cd7a8716
 @media(min-width: 992px) {
 	.tresetting{
 		height: 900px;
@@ -129,6 +204,9 @@ margin-top: 40px;
 	}
 	.cards{
 		height: 300px;
+	}
+	.pset1{
+		display: block;
 	}
 }
 @media(min-width: 768px) and (max-width: 991px){

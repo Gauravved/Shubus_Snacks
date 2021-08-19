@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Shubu's Snacks</title>
+    <link rel="icon" type="image/png" href="../Assets/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html')
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#footer').load('footer.html')
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <section class="contactset">
+        <div class="contanier-fluid">
+            <h1 class="text-center">Contact Us</h1>
+            <p class="pset text-center">Get in Touch with us</p>
+            <div class="row">
+                <div class="col-lg-3  col-md-8 col-sm-10 col-10 d-block m-auto">
+                    <i class="fa fa-envelope fa-2x" style="color: rgb(198, 51, 51);"></i>&nbsp;&nbsp;
+                    <p class="pset1">Email: kulkarnisanjyot6@gmail.com
+                    </p><br>
+                    <i class="fa fa-phone fa-2x" style="color: rgb(198, 51, 51);"></i>&nbsp;&nbsp;&nbsp;
+                    <p class="pset1">
+                        Phone: 9272591277
+                    </p><br>
+                    <i class="fa fa-address-book-o fa-2x" style="color: rgb(198, 51, 51); vertical-align: top;"></i>&nbsp;&nbsp;
+                    <p class="pset1">
+                        Address: Survey no. 71-72,<br> Flat no. H-908,
+                        Puram,<br> Prayeja city phase 2,<br>Sinhgad road, Wadgaon
+                        BK,<br>Pune-411041
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-10 col-sm-10 col-10 d-block m-auto">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="fname" required placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="mobile" required placeholder="Mobile number">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" required placeholder="E-mail address">
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="6" id="description" placeholder="Enter your Message" class="form-control" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <center><button class="buttonsetting" type="submit">
+                                Send Message
+                            </button></center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+
+    </section>
+	<script type="text/javascript">
+		$('.js-scroll-trigger').on('click',function(){
+		$('.collapse').collapse('hide');})
+	</script>
+</body>
+
+</html>
