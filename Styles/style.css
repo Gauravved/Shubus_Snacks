@@ -18,7 +18,7 @@
 	margin-right: 15px;
 }
 .slidesetting{
-	padding: 70px 0px 50px;
+	padding: 80px 0px 50px;
 }
 .imgsetting{
 	height: 570px;
@@ -101,6 +101,80 @@ margin-top: 40px;
 .rating{
 	margin-top: 50px;
 }
+.contactset{
+	padding: 100px 0px 60px;
+	margin-top: 50px;
+}
+.pset1{
+	color: rgb(198, 51, 51);
+	font-size: 16px;
+	display: inline-block;
+}
+.pset{
+	color: rgb(198, 51, 51);
+	font-size: 17px;
+	padding: 0px 0px 50px;
+}
+.contactset h1{
+	color: rgb(198, 51, 51);
+	padding: 0px 0px 10px;
+}
+.services{
+	padding: 100px 0px 60px;
+	margin-top: 50px;
+}
+.services h1,h6{
+	color: rgb(198, 51, 51);
+	padding: 0px 0px 10px;
+}
+.aboutde{
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right: 110px;
+}
+.col-25 {    
+	float: left;    
+	width: 25%;    
+	margin-top: 6px;    
+  }    
+	  
+  .col-75 {    
+	float: left;    
+	width: 75%;    
+	margin-top: 6px;  
+  }    
+  #sug{
+	  margin-left: 200px;
+	  margin-top: 80px;
+  }
+.form-group button{
+	background-color: rgb(198, 51, 51);
+	color: white;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+}
+.form-group button:hover{
+	background-color: white;
+	color: rgb(198, 51, 51);
+	border: 2px solid;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+}
+.services button{
+	background-color: rgb(198, 51, 51);
+	color: white;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+.services button:hover{
+	background-color: white;
+	color: rgb(198, 51, 51);
+	border: 2px solid;
+	border-color: rgb(198, 51, 51);
+	transition: background-color 500ms ease;
+}
 @media(min-width: 992px) {
 	.tresetting{
 		height: 900px;
@@ -119,6 +193,9 @@ margin-top: 40px;
 	}
 	.cards{
 		height: 300px;
+	}
+	.pset1{
+		display: block;
 	}
 }
 @media(min-width: 768px) and (max-width: 991px){

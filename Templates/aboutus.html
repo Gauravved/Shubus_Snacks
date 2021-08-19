@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome to Shubu's Snacks</title>
+        <link rel="icon" type="image/png" href="../Assets/img/logo.png">
+        <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $(function () {
+                $('#header').load('header.html')
+            });
+        </script>
+    
+        <script>
+            $(function () {
+                $('#footer').load('footer.html')
+            });
+        </script>
+    
+    </head>
+
+    <body>
+        <div id="header"></div>
+        <section class="services">
+        <div class="container-fluid">
+            <h1><center>About Us</center></h1>
+            <h6><center>Into our delicious world</center></h6>
+            <div class="aboutde">
+                <p><h5>Welcome to Shubu's Snacks!</h5></p>
+                <p>
+                    Shubu's Snacks is a platform where we proudly offer our native, homemade products. These products are made from the traditional recipies <br>
+                        that are passed on from generations! All our products are always made in refined oil and pure ghee. In Shubu's Snacks, utmost importance is <br>
+                        given to cleanliness and hygine (you don't need to worry about the taste :) ). Along with the lingering taste and purely homemade food, we <br>
+                        are also known for our punctual delivery and style of packing. Our speciality is the diwali customisable combo and Diwali products. We deliver <br>
+                        on time food for various events. It is a new venture with fresh ideas and unique services and we take pride in promoting women <br>
+                        empowerment. In this adventure, our goals are to provide delicious and top quality food products with excellect service and give you the best <br>
+                        experience possible. Be assured of a food experience and service that will stay with you for the lifetime.
+                </p>
+                <p>Happy Eating :)</p>
+            </div>
+            <h5 id="sug">Suggestion box</h5>
+            <div class="container">
+                <form>
+                    <div class="col25">
+                    <label for="suggestion_box">Your little Suggestion would help us to constantly keep improving</label>
+                    </div>
+                    <div class="col75">
+                    <textarea id="subject" name="subject" placeholder="Write something" style="height: 150px;width: 450px;">
+                    </textarea>
+                    </div>
+                        <button class="buttonsetting btn-lg" type="submit">
+                            Send Message
+                        </button>
+                </form>
+            </div>
+        </div>
+        </section>
+        <section id="footer">
+
+        </section>
+        <script type="text/javascript">
+            $('.js-scroll-trigger').on('click',function(){
+            $('.collapse').collapse('hide');})
+        </script>
+    </body>
+    
+</html>
