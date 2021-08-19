@@ -126,23 +126,7 @@ margin-top: 40px;
 .services h1,h6{
 	color: rgb(198, 51, 51);
 	padding: 0px 0px 10px;
-}
-.aboutde{
-	margin-top: 50px;
-	margin-left: 200px;
-	margin-right: 110px;
-}
-.col-25 {    
-	float: left;    
-	width: 25%;    
-	margin-top: 6px;    
-  }    
-	  
-  .col-75 {    
-	float: left;    
-	width: 75%;    
-	margin-top: 6px;  
-  }    
+}   
   #sug{
 	  margin-left: 200px;
 	  margin-top: 80px;
@@ -152,6 +136,9 @@ margin-top: 40px;
 	color: white;
 	border-color: rgb(198, 51, 51);
 	transition: background-color 500ms ease;
+	font-size: 18px;
+	padding: 6px;
+	border-radius: 5px;
 }
 .form-group button:hover{
 	background-color: white;
@@ -165,8 +152,14 @@ margin-top: 40px;
 	color: white;
 	border-color: rgb(198, 51, 51);
 	transition: background-color 500ms ease;
-	margin-top: 10px;
-	margin-left: 150px;
+	margin-top: 40px;
+	font-size: 18px;
+	padding: 6px;
+	border-radius: 5px;
+}
+.hset{
+	margin-top: 30px;
+	color: rgb(198, 51, 51);
 }
 .services button:hover{
 	background-color: white;
