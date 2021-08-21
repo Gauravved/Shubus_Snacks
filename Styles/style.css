@@ -5,8 +5,8 @@
 
 .navsetting{
 	background-color: rgb(198, 51, 51);
-	border-bottom-right-radius: 40px;
-	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 #asetting{
 	font-style: italic;
@@ -89,7 +89,7 @@ margin-top: 40px;
 
 .resetting{
 	color: rgb(198, 51, 51);
-	padding: 60px 0px 50px;
+	padding: 80px 0px 50px;
 }
 .card{
 	padding: 30px 0px 30px;
@@ -109,18 +109,22 @@ margin-top: 40px;
  
 .event{
 	padding-left: 100px;
+	padding-top: 100px ;
+	padding-bottom: 60px;
 	background-color:floralwhite;
 	font-size:20px;
 	color: rgb(198, 51, 51);
+	width: auto;
 }
-
+.event h2{
+	margin-top: 100px;
+}
 
 
 .flip-box {
 	background-color: transparent;
 	width: 300px;
 	height: 200px;
-	border: 1px solid #f1f1f1;
 	perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
@@ -140,54 +144,31 @@ margin-top: 40px;
   .flip-box-front, .flip-box-back {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 300px;
 	-webkit-backface-visibility: hidden; /* Safari */
 	backface-visibility: hidden;
+	padding: 0px 0px 100px;
   }
 
-  .flip-box-front {
-	background-color: #bbb;
-	color: black;
+  .flip-box-front img{
+	  width: 100%;
+	  height: 300px;
   }
 
   .flip-box-back {
-  background-color:floralwhite;
-  color:rgb(198, 51, 51);
-  transform: rotateY(180deg);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  	background-color: rgb(198, 51, 51);
+ 	color:white;
+ 	transform: rotateY(180deg);
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top: 100px;
+}
+.flip-box-back p{
+	font-size: 15px;
+}
+.flip-box-back h1{
+	font-size: 20px;
 }
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-=======
 .contactset{
 	padding: 100px 0px 60px;
 	margin-top: 50px;
@@ -255,7 +236,6 @@ margin-top: 40px;
 	border-color: rgb(198, 51, 51);
 	transition: background-color 500ms ease;
 }
->>>>>>> 01aaffe02d2920069401e01228b21ca1cd7a8716
 @media(min-width: 992px) {
 	.tresetting{
 		height: 900px;
@@ -278,8 +258,14 @@ margin-top: 40px;
 	.pset1{
 		display: block;
 	}
+	.navsetting{
+		height: 80px;
+	}
 }
 @media(min-width: 768px) and (max-width: 991px){
+	.navsetting{
+		height: 80px;
+	}
 	.imgsetting{
 		height: 450px;
 	}
@@ -311,6 +297,16 @@ margin-top: 40px;
 	.cards{
 		height: 500px;
 	}
+	.event{
+		padding-right: 20px;
+		text-align: left;
+		margin-left: 0px;
+		height: 2850px;
+		padding-top: 0%;
+	}
+	.event h2{
+		margin-top: 150px;
+	}
 }
 @media(min-width: 575px) and (max-width: 767px){
 	.imgsetting{
@@ -338,7 +334,25 @@ margin-top: 40px;
 	.footersetting ul li{
 		font-size: 16px;
 	}
-
+	.event{
+		padding-left: 0px;
+		text-align: left;
+		height: 2650px;
+		padding-top: 00px;
+	}
+	.flip-box-front , .flip-box-back{
+		height: 300px;
+		font-size: 15px;
+	}
+	.event h2{
+		margin-top: 150px;
+	}
+	.event p,ol{
+		margin-bottom: 16px;
+	}
+	.event p,ol{
+		font-size: 18px;
+	}
 }
 @media(min-width: 480px) and (max-width: 574px){
 	.imgsetting{
@@ -372,6 +386,28 @@ margin-top: 40px;
 	.tresetting .card{
 		height: 510px;
 	}
+	.event{
+		padding-left: 0px;
+		text-align: left;
+		height: 2900px;
+		padding-top: 00px;
+	}
+	.flip-box-front , .flip-box-back{
+		height: 300px;
+		font-size: 15px;
+		width: 100%;
+	}
+	.event h2{
+		margin-top: 150px;
+		font-size: 26px;
+		margin-left: 0px;
+	}
+	.event p,ol{
+		margin-bottom: 30px;
+	}
+	.event p,ol{
+		font-size: 18px;
+	}
 }
 @media (max-width: 479px){
 	.imgsetting{
@@ -401,6 +437,28 @@ margin-top: 40px;
 	}
 	.tresetting .card{
 		height: 555px;
+	}
+	.event{
+		padding-left: 0px;
+		text-align: left;
+		height: 3100px;
+		padding-top: 00px;
+	}
+	.flip-box-front , .flip-box-back{
+		height: 300px;
+		font-size: 15px;
+		width: 100%;
+	}
+	.event h2{
+		margin-top: 150px;
+		font-size: 26px;
+		margin-left: 0px;
+	}
+	.event p,ol{
+		margin-bottom: 30px;
+	}
+	.event p,ol{
+		font-size: 18px;
 	}
 }
 @media (max-height: 640px) and (max-width: 479px){
