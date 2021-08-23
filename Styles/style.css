@@ -226,8 +226,12 @@ margin-top: 40px;
 	padding: 6px;
 	border-radius: 5px;
 }
+#i11{
+	height: 245px;
+	width: 100%;
+}
 .hset{
-	margin-top: 30px;
+	margin-top: 90px;
 	color: rgb(198, 51, 51);
 }
 .services button:hover{
