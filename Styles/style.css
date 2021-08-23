@@ -115,6 +115,7 @@ margin-top: 40px;
 	font-size:20px;
 	color: rgb(198, 51, 51);
 	width: auto;
+	height: 1600px;
 }
 .event h2{
 	margin-top: 100px;
@@ -144,7 +145,7 @@ margin-top: 40px;
   .flip-box-front, .flip-box-back {
 	position: absolute;
 	width: 100%;
-	height: 300px;
+	height: 320px;
 	-webkit-backface-visibility: hidden; /* Safari */
 	backface-visibility: hidden;
 	padding: 0px 0px 100px;
@@ -152,7 +153,7 @@ margin-top: 40px;
 
   .flip-box-front img{
 	  width: 100%;
-	  height: 300px;
+	  height: 320px;
   }
 
   .flip-box-back {
@@ -194,6 +195,10 @@ margin-top: 40px;
 .services h1,h6{
 	color: rgb(198, 51, 51);
 	padding: 0px 0px 10px;
+}
+.membership{
+	color: rgb(198, 51, 51);
+	padding: 100px 0px 60px;
 }   
   #sug{
 	  margin-left: 200px;
