@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Shubu's Snacks</title>
@@ -27,12 +27,13 @@
             $('#footer').load('footer.html')
         });
     </script>
+
 </head>
 
 <body>
     <div id="header"></div>
     <section class="contactset">
-        <div class="contanier-fluid">
+        <div class="contanier">
             <h1 class="text-center">Contact Us</h1>
             <p class="pset text-center">Get in Touch with us</p>
             <div class="row">
@@ -65,20 +66,18 @@
                         <div class="form-group">
                             <textarea rows="6" id="description" placeholder="Enter your Message" class="form-control" required></textarea>
                         </div>
-                        <div class="form-group">
-                            <center><button class="buttonsetting" type="submit">
+                        <div class="form-group text-center">
+                            <button class="buttonsetting" type="submit">
                                 Send Message
-                            </button></center>
+                            </button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    <section id="footer">
-
-    </section>
-	<script type="text/javascript">
+    <section id="footer"></section>
+	<script>
 		$('.js-scroll-trigger').on('click',function(){
 		$('.collapse').collapse('hide');})
 	</script>

@@ -124,8 +124,8 @@ margin-top: 40px;
 
 .flip-box {
 	background-color: transparent;
-	width: 300px;
-	height: 200px;
+	width: 90%;
+	height: 320px;
 	perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
@@ -161,7 +161,7 @@ margin-top: 40px;
  	color:white;
  	transform: rotateY(180deg);
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	padding-top: 100px;
+	padding: 100px 0px;
 }
 .flip-box-back p{
 	font-size: 15px;
@@ -346,7 +346,6 @@ margin-top: 40px;
 		padding-top: 00px;
 	}
 	.flip-box-front , .flip-box-back{
-		height: 300px;
 		font-size: 15px;
 	}
 	.event h2{
@@ -398,7 +397,6 @@ margin-top: 40px;
 		padding-top: 00px;
 	}
 	.flip-box-front , .flip-box-back{
-		height: 300px;
 		font-size: 15px;
 		width: 100%;
 	}
@@ -446,11 +444,10 @@ margin-top: 40px;
 	.event{
 		padding-left: 0px;
 		text-align: left;
-		height: 3100px;
+		height: 3550px;
 		padding-top: 00px;
 	}
 	.flip-box-front , .flip-box-back{
-		height: 300px;
 		font-size: 15px;
 		width: 100%;
 	}
@@ -486,6 +483,6 @@ margin-top: 40px;
 		font-size: 24px;
 	}
 	.event{
-		height: 3200px;
+		height: 3400px;
 	}
 }
