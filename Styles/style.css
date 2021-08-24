@@ -251,6 +251,7 @@ margin-top: 40px;
 	border-color: rgb(198, 51, 51);
 	transition: background-color 500ms ease;
 }
+
 @media(min-width: 992px) {
 	.tresetting{
 		height: 900px;
