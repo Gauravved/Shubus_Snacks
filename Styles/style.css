@@ -194,8 +194,18 @@ margin-top: 40px;
 }
 .membership{
 	color: rgb(198, 51, 51);
-	padding: 100px 0px 60px;
+	padding: 160px 0px 60px;
 }   
+.memberde{
+	margin-top: 100px;
+}
+.plans{
+	padding-top: 50px;
+}
+.plan1{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
   #sug{
 	  margin-left: 200px;
 	  margin-top: 80px;
