@@ -35,7 +35,7 @@
         <div class="container-fluid">
             <div class="row">
 
-                <div class=" col-lg-7 col-md-10 col-sm-12 col-12 d-block m-auto">
+                <div class=" col-lg-7 col-md-10 col-sm-12 col-12 d-block m-auto reveal">
                     <h2 class="text-center font-weight-bold">Diwali Combo</h2>
                     <p class="pset">
                         This is our Diwali combo. If you take the Diwali items individually it will cost you more, but
@@ -45,7 +45,7 @@
                         price)
                     </p>
                 </div>
-                <div class="col-lg-5 col-md-10 col-sm-12 col-12 d-block m-auto">
+                <div class="col-lg-5 col-md-10 col-sm-12 col-12 d-block m-auto reveal">
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -69,7 +69,7 @@
 
         <div class="row">
 
-            <div class="col-lg-7 col-md-10 col-sm-10 col-10 d-block m-auto order-lg-2 ">
+            <div class="col-lg-7 col-md-10 col-sm-10 col-10 d-block m-auto order-lg-2 reveal">
                 <h2 class="text-center font-weight-bold">All Festivals</h2>
                 </h2>
                 <p class="pset" style="padding-bottom: 5px;">
@@ -81,11 +81,12 @@
                     <li>Padva, Holi: Puran Poli (1 for ₹25), Katachi Amti (₹20 per 100gm).</li>
                     <li>Rakshabandhan: Naral Wadi (₹400 per kg), Naral Karanji (1 for ₹15).</li>
                     <li>Ganapati: All Flavours of Modak (21 for ₹200), Ukadiche Modak (1 for ₹25).</li>
-                    <li>Mahalaxmi: All faral Items.</li>
+                    <li>Mahalaxmi: All faral Items. 
+                        (Tap the image to contact)</li>
                 </ol>
                 </p>
             </div>
-            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto order-md-2 order-lg-1">
+            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto order-md-2 order-lg-1 reveal">
                 <div class="flip-box">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -108,7 +109,7 @@
 
         <div class="row ">
 
-            <div class="col-lg-7 col-md-10 col-sm-10 col-10 d-block m-auto">
+            <div class="col-lg-7 col-md-10 col-sm-10 col-10 d-block m-auto reveal">
                 <h2 class="text-center font-weight-bold">Catering/Tiffin</h2>
                 </h2>
                 <p class="pset">
@@ -116,16 +117,17 @@
                     Poli Bhaji, Rice and Daal, Salad, Pickle, Chutney and Koshimbir, Sweets and many more. It is absolutely
                     customisable according to the need of the buyer.
                     We don't add food colour and all the food items are prepared through natural
-                    processes in a very hygenic environment.<br><br><br><br>
+                    processes in a very hygenic environment. (Tap the image for price)<br><br><br><br>
                 </p>
             </div>
-            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto">
+            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto reveal">
                 <div class="flip-box">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
                             <img class="img-fluid" src="../Assets/img/tiffin/download.jpg">
                         </div>
                         <div class="flip-box-back">
+                            <h3>₹100</h3>
                             <p>Customisable according to ordeer and quantity</p>
                             <form action="contact.html">
                                 <button type="submit" class="btn btn-lg "
@@ -142,7 +144,7 @@
 
         <div class="row">
 
-            <div class="col-lg-7 col-md-10 col-sm-12 col-10 d-block m-auto order-lg-2">
+            <div class="col-lg-7 col-md-10 col-sm-12 col-10 d-block m-auto order-lg-2 reveal">
                 <h2 class="text-center font-weight-bold">Children Special healthy box</h2>
                 </h2>
                 <p class="pset">
@@ -150,10 +152,10 @@
                     good
                     and will not affect their health as is made in healthy atmosphere. The pack includes: Nachani
                     shev(250g)
-                    Kasuri methi mathari(250g), Nachos (250g), Bhajani Chakali sticks(250g).
+                    Kasuri methi mathari(250g), Nachos (250g), Bhajani Chakali sticks(250g). (Tap the image for price)
                 </p>
             </div>
-            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto order-md-2 order-lg-1">
+            <div class="col-lg-5 col-md-10 col-sm-10 col-10 d-block m-auto order-md-2 order-lg-1 reveal">
                 <div class="flip-box">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -179,6 +181,24 @@
     </section>
 
     <div id="footer"></div>
+    
+    <script type="text/javascript">
+		window.addEventListener('scroll', reveal);
+		function reveal() {
+			var reveals = document.querySelectorAll('.reveal');
+			for (var i = 0; i < reveals.length; i++) {
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 20;
+				if (revealtop < windowheight - revealpoint) {
+					reveals[i].classList.add('active');
+				}
+				else {
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+	</script>
 </body>
 
 </html>
