@@ -40,7 +40,7 @@
                 <p>
                 <h5>Welcome to Shubhu's Snacks!</h5>
                 </p>
-                <p>
+                <p class="pset" style="margin-bottom: 0px;">
                     In Shubhu's Snacks, we constantly try to offer you our best service possible. In these regards, we
                     have created
                     3 membership offers for the users. On a long term basis, if you need our services for a longer
@@ -51,7 +51,7 @@
                     your convinience
                     to avail the premium services of Shubhu's Snacks! :)
                 </p>
-                <div class="plan1">
+                <div class="plan1" style="margin-top: 0px; padding-top: 0px;">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto reveal">
                             <h5>1 Month Membership Plan</h5>
@@ -103,22 +103,22 @@
         })
     </script>
     <script type="text/javascript">
-        window.addEventListener('scroll', reveal);
-        function reveal() {
-            var reveals = document.querySelectorAll('.reveal');
-            for (var i = 0; i < reveals.length; i++) {
-                var windowheight = window.innerHeight;
-                var revealtop = reveals[i].getBoundingClientRect().top;
-                var revealpoint = 20;
-                if (revealtop < windowheight - revealpoint) {
-                    reveals[i].classList.add('active');
-                }
-                else {
-                    reveals[i].classList.remove('active');
-                }
-            }
-        }
-    </script>
+		window.addEventListener('scroll', reveal);
+		function reveal() {
+			var reveals = document.querySelectorAll('.reveal');
+			for (var i = 0; i < reveals.length; i++) {
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 20;
+				if (revealtop < windowheight - revealpoint) {
+					reveals[i].classList.add('active');
+				}
+				else {
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+	</script>
 </body>
 
 </html>
