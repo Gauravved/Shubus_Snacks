@@ -102,11 +102,6 @@
 
     </section>
     <script type="text/javascript">
-        $('.js-scroll-trigger').on('click', function () {
-            $('.collapse').collapse('hide');
-        })
-    </script>
-    <script type="text/javascript">
 		window.addEventListener('scroll', reveal);
 		function reveal() {
 			var reveals = document.querySelectorAll('.reveal');
@@ -122,6 +117,12 @@
 				}
 			}
 		}
+	</script>
+    
+	<script>
+		$(document).on('click',function(){
+			$('#collapsenavbar').collapse('hide');
+		});
 	</script>
 </body>
 

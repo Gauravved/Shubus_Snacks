@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,51 +11,53 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	
-	<script>
-		$(document).on('click',function(){
-		$('#collapsenavbar').collapse('hide');})
-	</script>
 </head>
 
 <body>
-	<div class="bgsetting">
-		<nav class="navbar navbar-expand-md fixed-top navsetting">
-			<div class="container">
-				<a href="index.html" class="navbar-brand text-center text-white" id="asetting">Shubhu's Snacks <i
-						class="fa fa-glass"></i></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
-					<span class="navbar-toggler-icon"><i class="fa fa-navicon" style="color:#fff; font-size:24px;"></i>
-					</span>
-				</button>
-				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item lisetting">
-							<a href="index.html" class="nav-link text-white js-scroll-trigger">Home</a>
-						</li>
-						<li class="nav-item lisetting">
-							<a href="aboutus.html" class="nav-link text-white js-scroll-trigger">About</a>
-						</li>
-						<li class="nav-item lisetting">
-							<a href="event.html" class="nav-link text-white js-scroll-trigger">Events</a>
-						</li>
-						<li class="nav-item lisetting">
-							<a href="index.html#reviews" class="nav-link text-white js-scroll-trigger">Reviews</a>
-						</li>
-						<li class="nav-item lisetting">
-							<a href="membership.html" class="nav-link text-white js-scroll-trigger">Membership</a>
-						</li>
-						<li class="nav-item lisetting">
-							<a href="contact.html" class="nav-link text-white js-scroll-trigger">Contact</a>
-						</li>
-					</ul>
-				</div>
+	<nav class="navbar navbar-expand-md fixed-top navsetting">
+		<div class="container">
+			<a href="index.html" class="navbar-brand text-center text-white" id="asetting">Shubhu's Snacks <i
+					class="fa fa-glass"></i></a>
+			<button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#collapsenavbar">
+				<span class="navbar-toggler-icon">
+					<i class="fa fa-bars" style="color:#fff; font-size:24px;"></i>
+				</span>
+			</button>
+			<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item lisetting">
+						<a href="index.html" class="nav-link text-white js-scroll-trigger">Home</a>
+					</li>
+					<li class="nav-item lisetting">
+						<a href="aboutus.html" class="nav-link text-white js-scroll-trigger">About</a>
+					</li>
+					<li class="nav-item lisetting">
+						<a href="event.html" class="nav-link text-white js-scroll-trigger">Events</a>
+					</li>
+					<li class="nav-item lisetting">
+						<a href="index.html#reviews" class="nav-link text-white js-scroll-trigger">Reviews</a>
+					</li>
+					<li class="nav-item lisetting">
+						<a href="membership.html" class="nav-link text-white js-scroll-trigger">Membership</a>
+					</li>
+					<li class="nav-item lisetting">
+						<a href="contact.html" class="nav-link text-white js-scroll-trigger">Contact</a>
+					</li>
+				</ul>
 			</div>
-		</nav>
-	</div>
-	<script type="text/javascript">
-		$('.js-scroll-trigger').on('click',function(){
-		$('.navbar-toggler').collapse('hide');})
+		</div>
+	</nav>
+	
+	<script>
+		$(document).on('click',function(){
+			$('#collapsenavbar').collapse('hide');
+		});
+	</script>
+	<script>
+		$('.js-scroll-trigger').on('click',function () {
+			$('#collapsenavbar').collapse('hide')
+		})
 	</script>
 </body>
+
 </html>

@@ -98,9 +98,9 @@
 
     </section>
     <script type="text/javascript">
-        $('.js-scroll-trigger').on('click', function () {
-            $('.collapse').collapse('hide');
-        })
+       $(document).on('click', function() {
+            return $('.collapse').collapse('hide');
+        });
     </script>
     <script type="text/javascript">
 		window.addEventListener('scroll', reveal);
