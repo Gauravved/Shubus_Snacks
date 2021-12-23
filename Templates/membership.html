@@ -32,7 +32,7 @@
 
 <body>
     <div id="header"></div>
-    <section class="membership">
+    <section class="membership" id="comehere">
         <div class="container">
             <h1 class="text-center">Membership</h1>
             <h6 class="text-center">Welcome to our world</h6>
@@ -94,6 +94,7 @@
             </div>
         </div>
     </section>
+    <div id="scrollbutton"></div>
     <section id="footer">
 
     </section>
@@ -117,6 +118,26 @@
 					reveals[i].classList.remove('active');
 				}
 			}
+		}
+        window.onscroll= function(e){
+			if(this.oldScroll < this.scrollY){
+                console.log(this.oldScroll < this.scrollY);
+				button();
+			}
+			else{
+				invisible();
+			}
+			this.oldScroll = this.scrollY
+		}
+		function button() {
+			var input1='<button type="button" class="sbutton" id="b" onclick="goUp()"><i class=" fa fa-arrow-up fa-2x"></i></button';
+			document.getElementById("scrollbutton").innerHTML=input1;
+		}
+		function invisible(){
+			document.getElementById("scrollbutton").innerHTML=" ";
+		}
+		function goUp(){
+			location.href="index.html#comehere";
 		}
 	</script>
 </body>

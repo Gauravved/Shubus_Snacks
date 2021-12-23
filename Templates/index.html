@@ -32,7 +32,7 @@
 
 <body>
 	<div id="header"></div>
-	<section class="slidesetting">
+	<section class="slidesetting" id="comehere">
 		<div>
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
@@ -199,35 +199,10 @@
 		</div>
 	</section>
 
+	<div id="scrollbutton"></div>
 	<div id="footer"></div>
-	<!--	<footer class="footersetting">
-		<div class="container-fluid text-left">
-			<div class="row">
-				<div class="col-lg-5 col-md-6 col-sm-6 col-12 d-block m-auto">
-					<h1>Shubhu's Snacks <i class="fa fa-glass"></i></h1>
-					<p>Survey no. 71-72, Flat no. H-908,<br>Puram, Prayeja city phase 2,<br>Sinhgad road, Wadgaon
-						BK,<br>Pune-411041</p>
-					</div>
-					<div class="col-lg-7 col-md-6 col-sm-6 col-12 d-block m-auto">
-						<h1>Specialities</i></h1>
-						<ul class="text-left">
-							<li>Fresh homemade food</li>
-							<li>Prepared before 24 hours of delivery</li>
-							<li>Diwali combo and Diwali related products available throughout the year</li>
-							<li>Guaranteed ontime delivery</li>
-							<li><i>fssai</i> certified</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<center>
-				<a href=""><i class="fa fa-instagram image text-white fa-2x"></i></a>&nbsp; &nbsp;&nbsp;&nbsp;    
-				<a href="https://www.facebook.com/sanjyot.kulkarni.50"><i class="fa fa-facebook-square image text-white fa-2x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   
-				<a href=""><i class="fa fa-whatsapp image text-white fa-2x"></i></a> 
-			</center>   
-			<p class="text-center" style="margin-top:30px;">Copyright © Shubhu's Snacks 2021</p>
-		</div>
-	</footer> -->
+
+
 
 	<script type="text/javascript">
 		window.addEventListener('scroll', reveal);
@@ -244,6 +219,25 @@
 					reveals[i].classList.remove('active');
 				}
 			}
+		}
+		window.onscroll= function(e){
+			if(this.oldScroll < this.scrollY){
+				button();
+			}
+			else{
+				invisible();
+			}
+			this.oldScroll = this.scrollY
+		}
+		function button() {
+			var input1='<button type="button" class="sbutton" id="b" onclick="goUp()"><i class=" fa fa-arrow-up fa-2x"></i></button';
+			document.getElementById("scrollbutton").innerHTML=input1;
+		}
+		function invisible(){
+			document.getElementById("scrollbutton").innerHTML="";
+		}
+		function goUp(){
+			location.href="index.html#comehere";
 		}
 	</script>
 </body>

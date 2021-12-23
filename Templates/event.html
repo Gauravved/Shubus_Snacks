@@ -31,7 +31,7 @@
 
 <body>
     <div id="header"></div>
-    <section class="event">
+    <section class="event" id="comehere">
         <div class="container-fluid">
             <div class="row">
 
@@ -179,7 +179,7 @@
         </div>
 
     </section>
-
+    <div id="scrollbutton"></div>
     <div id="footer"></div>
     
     <script type="text/javascript">
@@ -197,6 +197,26 @@
 					reveals[i].classList.remove('active');
 				}
 			}
+		}
+        window.onscroll= function(e){
+			if(this.oldScroll < this.scrollY){
+                console.log(this.oldScroll < this.scrollY);
+				button();
+			}
+			else{
+				invisible();
+			}
+			this.oldScroll = this.scrollY
+		}
+		function button() {
+			var input1='<button type="button" class="sbutton" id="b" onclick="goUp()"><i class=" fa fa-arrow-up fa-2x"></i></button';
+			document.getElementById("scrollbutton").innerHTML=input1;
+		}
+		function invisible(){
+			document.getElementById("scrollbutton").innerHTML=" ";
+		}
+		function goUp(){
+			location.href="event.html#comehere";
 		}
 	</script>
 </body>

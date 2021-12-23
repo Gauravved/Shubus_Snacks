@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Welcome to Shubhu's Snacks</title>
@@ -32,7 +32,7 @@
 
 <body>
     <div id="header"></div>
-    <section class="contactset container">
+    <section class="contactset container" id="comehere">
         <div class="fluid">
             <h1 class="text-center">Contact Us</h1>
             <p class="pset text-center">Get in Touch with us</p>
@@ -45,7 +45,8 @@
                     <p class="pset1">
                         Phone: 9272591277
                     </p><br>
-                    <i class="fa fa-address-book-o fa-2x" style="color: rgb(198, 51, 51); vertical-align: top;"></i>&nbsp;&nbsp;
+                    <i class="fa fa-address-book-o fa-2x"
+                        style="color: rgb(198, 51, 51); vertical-align: top;"></i>&nbsp;&nbsp;
                     <p class="pset1">
                         Address: Survey no. 71-72,<br> Flat no. H-908,
                         Puram,<br> Prayeja city phase 2,<br>Sinhgad road, Wadgaon
@@ -64,7 +65,8 @@
                             <input type="email" class="form-control" id="email" required placeholder="E-mail address">
                         </div>
                         <div class="form-group">
-                            <textarea rows="6" id="description" placeholder="Enter your Message" class="form-control" required></textarea>
+                            <textarea rows="6" id="description" placeholder="Enter your Message" class="form-control"
+                                required></textarea>
                         </div>
                         <div class="form-group text-center">
                             <button class="buttonsetting" type="submit">
@@ -76,7 +78,30 @@
             </div>
         </div>
     </section>
+    <div id="scrollbutton"></div>
     <section id="footer"></section>
 </body>
+<script>
+    window.onscroll = function (e) {
+        if (this.oldScroll < this.scrollY) {
+            console.log(this.oldScroll < this.scrollY);
+            button();
+        }
+        else {
+            invisible();
+        }
+        this.oldScroll = this.scrollY
+    }
+    function button() {
+        var input1 = '<button type="button" class="sbutton" id="b" onclick="goUp()"><i class=" fa fa-arrow-up fa-2x"></i></button';
+        document.getElementById("scrollbutton").innerHTML = input1;
+    }
+    function invisible() {
+        document.getElementById("scrollbutton").innerHTML = " ";
+    }
+    function goUp() {
+        location.href = "contact.html#comehere";
+    }
+</script>
 
 </html>
